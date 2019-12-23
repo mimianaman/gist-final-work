@@ -11,7 +11,7 @@ const Header = () => {
           >
             donate
           </a>
-          <a target="_blank" className="fa fa-facebook"></a>
+          <a target="_blank" className="fa fa-facebook "></a>
           <a target="_blank" className="fa fa-twitter"></a>
           <a target="_blank" className="fa fa-instagram mr-5"></a>
         </div>

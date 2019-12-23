@@ -60,7 +60,7 @@ const MentorShipForm = () => {
       <input
         type="submit"
         title="submit"
-        className="btn btn-primary btn-lg mx-auto"
+        className="btn btn-info btn-lg mx-auto"
       />
     </form>
   );

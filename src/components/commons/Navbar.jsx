@@ -1,19 +1,33 @@
 import React from "react";
+import { NavLink, Link } from "react-router-dom";
 import logo from "../../images/logo.JPG";
-
+let active = "";
 const Navbar = props => {
+  active = props === true ? "active" : "";
+
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light">
       <a className="navbar-brand">
         <img src={logo} alt="website logo" />
       </a>
+
       <ul className="navbar-nav ml-auto text-right">
-        <li className=" nav-item active ">
-          <a className="nav-link text-capitalize" href="#">
-            home
-          </a>
+        <Link to="/" className={`nav-link ${active}`}>
+          Home
+        </Link>
+
+        <Link to="/About" className={`nav-link ${active}`}>
+          About Us
+        </Link>
+
+        <li className={`nav-link ${active} `}>
+          <Link to="/Programs">Programs</Link>
         </li>
-        <li className="nav-item dropdown">
+        <li className={`nav-link ${active} `}>
+          <Link to="/GetInvolved">Get involved</Link>
+        </li>
+
+        {/* <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
             href="#"
@@ -89,7 +103,7 @@ const Navbar = props => {
               Our Mission
             </a>
           </div>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

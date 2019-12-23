@@ -94,9 +94,9 @@ h4 {
   width: 150px;
   height: 150px;
 }
-h5 {
-  color: #22a6b3;
-}
+/* h5 {
+  color: gray;
+} */
 #executives {
   background-color: white;
   color: gray;
@@ -138,4 +138,10 @@ h5 {
 
 .bg-purple {
   background-color: #940097;
+}
+.card-img-top {
+  width: 90%;
+}
+bg-white {
+  color: white;
 }
