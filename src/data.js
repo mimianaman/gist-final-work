@@ -4,6 +4,25 @@ import AnnImage from "./images/marketing manager.jpg";
 import AmaImage from "./images/project manager.jpg";
 import TinaImage from "./images/outreachmanager.jpg";
 import RainerImage from "./images/communications manager.png";
+import TamaleImage from "./images/tamale-1.JPG";
+import TamaleImageTwo from "./images/tamale-2.JPG";
+import TamaleImageThree from "./images/tamele-3.JPEG";
+import TamaleImageFour from "./images/tamale-4.JPEG";
+import TamaleImageFive from "./images/tamale-5.JPEG";
+import TamaleImageSix from "./images/tamale-6.JPEG";
+import TamaleImageSeven from "./images/tamale-7.JPEG";
+
+export const gallerydata = [
+  {
+    imgSrc: TamaleImage,
+    imgSrc: TamaleImageTwo,
+    imgSrc: TamaleImageThree,
+    imgSrc: TamaleImageFour,
+    imgSrc: TamaleImageFive,
+    imgSrc: TamaleImageSix,
+    imgSrc: TamaleImageSeven
+  }
+];
 
 export const programsdata = {
   survey: `The purpose of this survy is to measure students interest in Science,

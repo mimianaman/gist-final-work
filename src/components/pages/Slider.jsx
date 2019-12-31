@@ -1,20 +1,15 @@
-import { Carousel } from "react-bootstrap";
+import gallerydata from "../../data";
 import React from "react";
-import sliderImage from "../../images/tamale gist.jpg";
-import sliderImageTwo from "../../images/tamale gist-2.jpg";
-import Lightbox from "react-lightbox-component";
-const App = () => (
-  <div className="row">
-    <Lightbox
-      images={[
-        {
-          src: { sliderImage },
-          title: "Tamele-Survey",
-          description: "Northern Group"
-        }
-      ]}
-    />
-  </div>
-);
+import { Card } from "react-bootstrap";
 
-export default App;
+const Slider = galleryimage => {
+  return (
+    <div className="col-md-4">
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src="galleryimage" />
+      </Card>
+    </div>
+  );
+};
+
+export default Slider;

@@ -16,6 +16,9 @@ const MentorShipForm = () => {
       className={`form-row bg-purple p-5`}
     >
       <div className="col-md-5 mx-5">
+        <div className="row text-capitalize">
+          <h1>mentorship form</h1>
+        </div>
         <div>
           <label>Full Name</label>
           <input name="name" className="form-control" ref={register} />
@@ -34,7 +37,7 @@ const MentorShipForm = () => {
           <input name="occupation" className="form-control" ref={register} />
         </div>
       </div>
-      <div className="col-md-5 mx-5">
+      <div className="col-md-5 mx-5 pt-5">
         <div className="form-group">
           <label>Place of Residence:</label>
           <input name="residence" className="form-control" ref={register} />
