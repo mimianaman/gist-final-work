@@ -11,10 +11,7 @@ const MentorShipForm = () => {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit(onSubmit)}
-      className={`form-row bg-purple p-5`}
-    >
+    <form onSubmit={handleSubmit(onSubmit)} className={`form-row purple p-5`}>
       <div className="col-md-5 mx-5">
         <div className="row text-capitalize">
           <h1>mentorship form</h1>

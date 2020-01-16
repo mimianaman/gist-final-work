@@ -1,26 +1,26 @@
 import MimiImage from "../src/images/webdeveloper.JPG";
-import OhemaaImage from "./images/founder.jpg";
+import OhemaaImage from "../src/images/founder.jpg";
 import AnnImage from "./images/marketing manager.jpg";
 import AmaImage from "./images/project manager.jpg";
 import TinaImage from "./images/outreachmanager.jpg";
 import RainerImage from "./images/communications manager.png";
-import TamaleImage from "./images/tamale-1.JPG";
-import TamaleImageTwo from "./images/tamale-2.JPG";
-import TamaleImageThree from "./images/tamele-3.JPEG";
-import TamaleImageFour from "./images/tamale-4.JPEG";
-import TamaleImageFive from "./images/tamale-5.JPEG";
-import TamaleImageSix from "./images/tamale-6.JPEG";
-import TamaleImageSeven from "./images/tamale-7.JPEG";
+import TamaleImage from "../src/images/tamale-1.jpg";
+import TamaleImageTwo from "../src/images/tamale-2.jpg";
+import TamaleImageThree from "../src/images/tamele-3.jpeg";
+import TamaleImageFour from "../src/images/tamale-4.jpeg";
+import TamaleImageFive from "../src/images/tamale-5.jpeg";
+import TamaleImageSix from "../src/images/tamale-6.jpeg";
+import TamaleImageSeven from "../src/images/tamale-7.jpeg";
 
 export const gallerydata = [
   {
     imgSrc: TamaleImage,
-    imgSrc: TamaleImageTwo,
-    imgSrc: TamaleImageThree,
-    imgSrc: TamaleImageFour,
-    imgSrc: TamaleImageFive,
-    imgSrc: TamaleImageSix,
-    imgSrc: TamaleImageSeven
+    imgSrcOne: TamaleImageTwo,
+    imgSrcTwo: TamaleImageThree,
+    imgSrcThree: TamaleImageFour,
+    imgSrcFour: TamaleImageFive,
+    imgSrcFive: TamaleImageSix,
+    imgSrcSix: TamaleImageSeven
   }
 ];
 

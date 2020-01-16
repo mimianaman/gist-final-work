@@ -3,11 +3,9 @@ import Header from "../commons/Header";
 import Navbar from "../commons/Navbar";
 import Footer from "../commons/Footer";
 import MentorShipForm from "../commons/MentorShipForm";
-import { executivesData, aboutdata, gallerydata } from "../../data";
+import { executivesData, gallerydata } from "../../data";
 import Executives from "../Executives";
-import about from "../pages/About";
-import Slider from "../pages/Slider";
-import App from "../pages/Slider";
+// import Video from "./Video";
 
 const Home = () => {
   console.log("data ----", executivesData, gallerydata);
@@ -16,10 +14,10 @@ const Home = () => {
       <Header />
       <Navbar props={true} />
       <div className=" container">
-        <div className="row mx-auto text-capitalize m-3 ">
+        <div className="row mx-auto text-capitalize m-3 animated infinite heartBeat">
           <h3>executives</h3>
         </div>
-        <div className="row mx-auto">
+        <div className="power row mx-auto shadow p-3 mb-5 bg-white rounded">
           {executivesData.map(executive => (
             <Executives
               role={executive.role}
@@ -31,17 +29,8 @@ const Home = () => {
           ))}
         </div>
       </div>
+      {/* <Video /> */}
       <MentorShipForm />
-      <div className="container">
-        <div className="row ">
-          {gallerydata.map(gallery => (
-            <Slider
-              galleryimage={gallerydata.imgSrc}
-              key={gallerydata.imgSrc}
-            />
-          ))}
-        </div>
-      </div>
       <Footer />
     </>
   );
