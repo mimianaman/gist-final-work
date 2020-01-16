@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import { NavLink, Link } from "react-router-dom";
 import logo from "../../images/logo.JPG";
 let active = "";
