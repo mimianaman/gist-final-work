@@ -5,7 +5,7 @@ const MentorShipForm = () => {
   //handle form submission using the react hook form
   //console log to ensure u geting the data from the form
 
-  const { register, handleSubmit, errors } = useForm();
+  const { register, handleSubmit } = useForm();
   const onSubmit = data => {
     console.log(data);
   };
