@@ -241,11 +241,7 @@ p {
 }
 
 h3 {
-  font-family: "NEC Regular";
   color: #99019a;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
 }
 
 h4 {

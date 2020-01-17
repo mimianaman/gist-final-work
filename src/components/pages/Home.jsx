@@ -15,7 +15,7 @@ const Home = () => {
       <Navbar props={true} />
       <Slide />
       <div className=" container">
-        <div className="row mx-auto text-capitalize m-3 animated infinite heartBeat">
+        <div className="row mx-auto text-capitalize m-3 ">
           <h3>executives</h3>
         </div>
         <div className="power row mx-auto shadow p-3 mb-5 bg-white rounded">
