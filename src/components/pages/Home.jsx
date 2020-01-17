@@ -3,16 +3,17 @@ import Header from "../commons/Header";
 import Navbar from "../commons/Navbar";
 import Footer from "../commons/Footer";
 import MentorShipForm from "../commons/MentorShipForm";
-import { executivesData, gallerydata } from "../../data";
+import { executivesData } from "../../data";
 import Executives from "../Executives";
-// import Video from "./Video";
+import Slide from "./Slide";
 
 const Home = () => {
-  console.log("data ----", executivesData, gallerydata);
+  console.log("data ----", executivesData);
   return (
     <>
       <Header />
       <Navbar props={true} />
+      <Slide />
       <div className=" container">
         <div className="row mx-auto text-capitalize m-3 animated infinite heartBeat">
           <h3>executives</h3>
@@ -29,7 +30,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-      {/* <Video /> */}
       <MentorShipForm />
       <Footer />
     </>

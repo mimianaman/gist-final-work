@@ -4,25 +4,6 @@ import AnnImage from "./images/marketing manager.jpg";
 import AmaImage from "./images/project manager.jpg";
 import TinaImage from "./images/outreachmanager.jpg";
 import RainerImage from "./images/communications manager.png";
-import TamaleImage from "../src/images/tamale-1.jpg";
-import TamaleImageTwo from "../src/images/tamale-2.jpg";
-import TamaleImageThree from "../src/images/tamele-3.jpeg";
-import TamaleImageFour from "../src/images/tamale-4.jpeg";
-import TamaleImageFive from "../src/images/tamale-5.jpeg";
-import TamaleImageSix from "../src/images/tamale-6.jpeg";
-import TamaleImageSeven from "../src/images/tamale-7.jpeg";
-
-export const gallerydata = [
-  {
-    imgSrc: TamaleImage,
-    imgSrcOne: TamaleImageTwo,
-    imgSrcTwo: TamaleImageThree,
-    imgSrcThree: TamaleImageFour,
-    imgSrcFour: TamaleImageFive,
-    imgSrcFive: TamaleImageSix,
-    imgSrcSix: TamaleImageSeven
-  }
-];
 
 export const programsdata = {
   survey: `The purpose of this survy is to measure students interest in Science,

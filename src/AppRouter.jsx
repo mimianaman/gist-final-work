@@ -6,7 +6,6 @@ import Programs from "./components/pages/Programs";
 import GetInvolved from "./components/pages/GetInvolved";
 import ErrorPage from "./components/commons/404Page";
 import Executives from "./components/Executives";
-import Slider from "./components/pages/Slider";
 
 const AppRoute = () => {
   return (
@@ -17,7 +16,6 @@ const AppRoute = () => {
         <Route exact path="/Programs" component={Programs} />
         <Route exact path="/GetInvolved" component={GetInvolved} />
         <Route exact path="/Executives" component={Executives} />
-        {<Route exact path="/Slider" component={Slider} />}
         <Route component={ErrorPage} />
       </Switch>
     </Router>

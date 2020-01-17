@@ -5,6 +5,7 @@ import mtnMomoImage from "../../images/mtn.png";
 import vodaMomoImage from "../../images/voda.png";
 
 export const Donate = () => {
+  // eslint-disable-next-line no-unused-vars
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = data => {
     console.log(data);
@@ -37,7 +38,7 @@ export const Donate = () => {
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-6">
+        <div className="col-md-6 animated infinite heartBeat">
           <img src={volunteerImage} alt="website logo" />
         </div>
         <div className="col-md-6">
